@@ -21,14 +21,16 @@
 \newpage % 换页
 \tableofcontents % 目录
 \newpage
-\section{Graph Theory} % 一级标题
-\subsection{Minimum Spanning Tree} % 二级标题
-\subsubsection{Kruskal} % 三级标题
-\inputminted[breaklines]{c++}{graph/kruskal.cc} % 插入代码文件
-% 中文测试
-\subsection{单源最短路}
-\subsubsection{SPFA}
-\inputminted[breaklines]{c++}{graph/spfa.cc}
+\section{图论} % 一级标题
+\subsection{connected graph} % 二级标题
+\subsubsection{割点} % 三级标题
+\inputminted[breaklines]{c++}{graph/cutpoint.cc} % 插入代码文件
+\subsubsection{割边}
+\inputminted[breaklines]{c++}{graph/cutedge.cc}
+\subsubsection{强连通分量}
+\inputminted[breaklines]{c++}{graph/scc.cc}
+\subsubsection{强连通分量缩点}
+\inputminted[breaklines]{c++}{graph/scc-ReductionPoints.cc}
 
 \twocolumn  % 分页显示
 \newpage
